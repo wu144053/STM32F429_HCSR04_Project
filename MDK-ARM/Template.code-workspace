@@ -1,7 +1,22 @@
 {
-    "folders": [
-        {
-            "path": ".."
-        }
-    ]
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		// 1. 强行在工作区指定 clangd 路径，防止被覆盖
+		"clangd.path": "D:\\software\\clangd-windows-22.1.0\\clangd_22.1.0\\bin\\clangd.exe",
+		
+		// 2. 强行在工作区指定导航参数和编译器路径
+		"clangd.arguments": [
+			"--compile-commands-dir=${workspaceFolder}",
+			"--completion-style=detailed",
+			"--header-insertion=never",
+			"--query-driver=E:/BaiduNetdiskDownload/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc.exe"
+		],
+		
+		// 3. 强行关闭微软自带的提示引擎
+		"C_Cpp.intelliSenseEngine": "disabled"
+	}
 }

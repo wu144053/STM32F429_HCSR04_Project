@@ -55,5 +55,9 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
-  "C_Cpp_Runner.msvcSecureNoWarnings": false
+  "C_Cpp_Runner.msvcSecureNoWarnings": false,
+  "clangd.path": "D:\\software\\clangd-windows-22.1.0\\clangd_22.1.0\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--compile-commands-dir=D:/STM32projict_course/STM32F429I-Discovery_FW_V1.0.1/Projects/comprehensive_practical_training/build/Template"
+]
 }

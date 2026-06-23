@@ -3,14 +3,16 @@
         {
             "name": "Template",
             "includePath": [
-                "d:\\STM32projict_course\\STM32F429I-Discovery_FW_V1.0.1\\Projects\\exp6_\\",
+                "d:\\STM32projict_course\\STM32F429I-Discovery_FW_V1.0.1\\Projects\\comprehensive_practical_training\\",
                 "d:\\STM32projict_course\\STM32F429I-Discovery_FW_V1.0.1\\Libraries\\CMSIS\\Device\\ST\\STM32F4xx\\Include",
                 "d:\\STM32projict_course\\STM32F429I-Discovery_FW_V1.0.1\\Libraries\\CMSIS\\Include",
                 "d:\\STM32projict_course\\STM32F429I-Discovery_FW_V1.0.1\\Libraries\\STM32F4xx_StdPeriph_Driver\\inc",
                 "d:\\STM32projict_course\\STM32F429I-Discovery_FW_V1.0.1\\Utilities\\STM32F429I-Discovery",
+                "d:\\STM32projict_course\\STM32F429I-Discovery_FW_V1.0.1\\Projects\\comprehensive_practical_training\\inc",
                 "d:\\STM32projict_course\\STM32F429I-Discovery_FW_V1.0.1\\Libraries\\CMSIS\\Device\\ST\\STM32F4xx\\Source\\Templates\\arm",
                 "d:\\STM32projict_course\\STM32F429I-Discovery_FW_V1.0.1\\Libraries\\STM32F4xx_StdPeriph_Driver\\src",
-                "d:\\STM32projict_course\\STM32F429I-Discovery_FW_V1.0.1\\Projects\\exp6_"
+                "d:\\STM32projict_course\\STM32F429I-Discovery_FW_V1.0.1\\Projects\\comprehensive_practical_training",
+                "d:\\STM32projict_course\\STM32F429I-Discovery_FW_V1.0.1\\Projects\\comprehensive_practical_training\\src"
             ],
             "defines": [
                 "USE_STDPERIPH_DRIVER",

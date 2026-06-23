@@ -609,6 +609,11 @@
               <FilePath>..\inc\hcsr04.h</FilePath>
             </File>
             <File>
+              <FileName>pir.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\inc\pir.h</FilePath>
+            </File>
+            <File>
               <FileName>key.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\inc\key.h</FilePath>
@@ -632,6 +637,11 @@
               <FileName>hcsr04.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\src\hcsr04.c</FilePath>
+            </File>
+            <File>
+              <FileName>pir.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\src\pir.c</FilePath>
             </File>
             <File>
               <FileName>key.c</FileName>

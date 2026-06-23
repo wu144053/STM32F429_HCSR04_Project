@@ -1,0 +1,14 @@
+Diagnostics:
+  UnusedIncludes: None
+  MissingIncludes: None
+CompileFlags:
+  Add:
+    - -isystemE:\BaiduNetdiskDownload\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\arm-none-eabi\include\c++\14.2.1
+    - -isystemE:\BaiduNetdiskDownload\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\arm-none-eabi\include\c++\14.2.1\arm-none-eabi\thumb\v7e-m+fp\hard
+    - -isystemE:\BaiduNetdiskDownload\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\arm-none-eabi\include\c++\14.2.1\backward
+    - -isystemE:\BaiduNetdiskDownload\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\lib\gcc\arm-none-eabi\14.2.1\include
+    - -isystemE:\BaiduNetdiskDownload\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\lib\gcc\arm-none-eabi\14.2.1\include-fixed
+    - -isystemE:\BaiduNetdiskDownload\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\arm-none-eabi\include
+  Remove: []
+  CompilationDatabase: ./build/Template
+  Compiler: E:\BaiduNetdiskDownload\arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi\bin\arm-none-eabi-gcc.exe

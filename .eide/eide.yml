@@ -12,7 +12,7 @@ virtualFolder:
   folders:
     - name: MDK-ARM
       files:
-        - path: ../../Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f429_439xx.s
+        - path: ../../Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f429_439xx.s
       folders: []
     - name: STM32F429I-Discovery
       files:
@@ -57,14 +57,6 @@ virtualFolder:
         - path: stm32f4xx_it.c
         - path: system_stm32f4xx.c
       folders: []
-    - name: inc
-      files:
-        - path: inc/hcsr04.h
-      folders: []
-    - name: src
-      files:
-        - path: src/hcsr04.c
-      folders: []
 dependenceList: []
 outDir: build
 miscInfo:
@@ -86,7 +78,7 @@ targets:
       libList: []
     excludeList: []
     settings: {}
-    toolchain: AC5
+    toolchain: GCC
     toolchainConfigMap:
       AC5:
         archExtensions: ""

@@ -7,7 +7,9 @@
     "settings": {
         "terminal.integrated.shellIntegration.enabled": false,
         "clangd.arguments": [
-            "--header-insertion=never"
+            "--header-insertion=never",
+            "--compile-commands-dir=${workspaceFolder}",
+            "--query-driver=E:/BaiduNetdiskDownload/arm-gnu-toolchain-14.2.rel1-mingw-w64-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc.exe"
         ],
         "files.autoGuessEncoding": true,
         "C_Cpp.default.configurationProvider": "cl.eide",
@@ -28,7 +30,8 @@
             "editor.insertSpaces": true,
             "editor.tabSize": 4,
             "editor.autoIndent": "advanced"
-        }
+        },
+        "clangd.path": "D:\\software\\clangd-windows-22.1.0\\clangd_22.1.0\\bin\\clangd.exe"
     },
     "extensions": {
         "recommendations": [

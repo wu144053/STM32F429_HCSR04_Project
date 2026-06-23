@@ -9,7 +9,7 @@ void delay_init(u8 SYSCLK)
 SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK_Div8); 
 fac_us = SYSCLK / 8; 
 } 
- 
+
 void delay_s(u8 n)  
   
   
@@ -20,7 +20,6 @@ void delay_s(u8 n)
         delay_ms(1000);
         /* code */
     }
-    
 } 
  
 void delay_ms(u16 n)   
