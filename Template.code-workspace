@@ -31,7 +31,8 @@
             "editor.tabSize": 4,
             "editor.autoIndent": "advanced"
         },
-        "clangd.path": "D:\\software\\clangd-windows-22.1.0\\clangd_22.1.0\\bin\\clangd.exe"
+        "clangd.path": "D:\\software\\clangd-windows-22.1.0\\clangd_22.1.0\\bin\\clangd.exe",
+        "git.autorefresh": false
     },
     "extensions": {
         "recommendations": [

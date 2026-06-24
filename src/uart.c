@@ -63,3 +63,54 @@ u8 UART1_ReadByte(u8 *data)
 
   return 0;
 }
+
+void UART1_SendU32(u32 value)
+{
+  char buffer[10];
+  u8 index = 0;
+
+  if (value == 0)
+  {
+    UART1_SendByte('0');
+    return;
+  }
+
+  while (value > 0)
+  {
+    buffer[index++] = (char)('0' + (value % 10));
+    value /= 10;
+  }
+
+  while (index > 0)
+  {
+    UART1_SendByte((u8)buffer[--index]);
+  }
+}
+/**
+ * @brief  Send a floating point number via UART1
+ * @param  value: The float number to send
+ * @param  decimal_places: How many digits after the decimal point (e.g., 2)
+ */
+void UART1_SendFloat(float value, int decimal_places) {
+    // 1. 处理负数
+    if (value < 0) {
+        UART1_SendByte('-');
+        value = -value;
+    }
+
+    // 2. 打印整数部分
+    uint32_t integer_part = (uint32_t)value;
+    UART1_SendU32(integer_part);
+
+    // 3. 打印小数点
+    UART1_SendByte('.');
+
+    // 4. 打印小数部分
+    float fractional_part = value - (float)integer_part;
+    for (int i = 0; i < decimal_places; i++) {
+        fractional_part *= 10;
+        uint8_t digit = (uint8_t)fractional_part;
+        UART1_SendByte(digit + '0');
+        fractional_part -= digit;
+    }
+}
